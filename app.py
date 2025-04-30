@@ -21,7 +21,7 @@ load_dotenv(dotenv_path='envfile.env')
 
 classifier = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', top_k=None)
 
-model_name = "microsoft/DialoGPT-small"
+model_name = "microsoft/DialoGPT-medium"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
