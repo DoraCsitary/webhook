@@ -21,7 +21,7 @@ load_dotenv(dotenv_path='envfile.env')
 
 classifier = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', top_k=None)
 
-model_name = "microsoft/DialoGPT-medium"
+model_name = "microsoft/DialoGPT-small"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
@@ -179,4 +179,4 @@ def prompt_test():
     })
 
 if __name__ == '__main__':
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    app.run(host="0.0.0.0", port=int(os.gateaway("PORT", 5000), debug=True)
