@@ -21,7 +21,7 @@ load_dotenv(dotenv_path='envfile.env')
 
 classifier = pipeline("text-classification", model='bhadresh-savani/distilbert-base-uncased-emotion', top_k=None)
 
-model_name = "microsoft/DialoGPT-small"
+model_name = "microsoft/DialoGPT-medium"
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name)
 
@@ -129,9 +129,6 @@ def fb_webhook():
                     session.pop('chat_history_ids', None)
                     send_fb_message(sender_id, "Conversation reset. Let's start fresh!")
                     continue
-
-                dialogpt_response = generate_dialogpt_response(message_text)
-                send_fb_message(sender_id, dialogpt_response)
 
                 dialogpt_response = generate_dialogpt_response(message_text)
                 send_fb_message(sender_id, dialogpt_response)
