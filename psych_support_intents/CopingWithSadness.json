@@ -1,0 +1,62 @@
+{
+  "name": "CopingWithSadness",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "I'm really sorry you're feeling this way.",
+            "I'm really sorry you're feeling this way. Your feelings are important, and it's okay to feel down sometimes.",
+            "I know things seem tough right now, but there is always hope. Each new day gives you a chance to heal.",
+            "It's not easy, but talking about it is already a step toward feeling better.",
+            "Remember, it's totally normal to feel the way you do. Be kind to yourself and give yourself time to heal.",
+            "Even though it feels hard right now, the most important thing is to be gentle and patient with yourself.",
+            "When it feels overwhelming, try to take it one step at a time. You don’t have to figure everything out alone.",
+            "Try doing something creative, like painting or writing. It can help release your emotions and ease your mind.",
+            "Physical movement can help too: a short walk or some yoga might make you feel a little lighter.",
+            "Sometimes the best thing you can do is take a break from your surroundings. A small pause can do wonders.",
+            "The strength you show just by getting up each day is incredible. Don't forget how resilient you are.",
+            "Difficult moments always pass. Even though it’s hard now, things will get better with time.",
+            "You might not feel it now, but there is always a way out, and you are not alone."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I'm sad" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm really sad" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel sad" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel down" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "Everything feels heavy" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "Everything feels hopeless" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I want to cry" } ],
+      "isTemplate": false
+    }
+  ]
+}

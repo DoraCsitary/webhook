@@ -1,0 +1,62 @@
+{
+  "name": "DealingWithStress",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Stress is a natural reaction, especially when life feels overwhelming. You're not alone. Taking small breaks and setting boundaries can really help.",
+            "When stress builds up, even short breathing exercises can activate your body’s relaxation response.",
+            "It’s okay to admit when you feel overwhelmed. That honesty is a strength, not a weakness.",
+            "Sometimes writing down your thoughts or tasks can make stress feel more manageable. Have you tried journaling or using a to-do list?",
+            "Try focusing on one thing you can control right now. This can reduce feelings of helplessness and bring clarity.",
+            "Stress often stems from trying to meet too many demands at once. It's okay to say no or delegate. Self-care isn't selfish—it's essential.",
+            "Notice where in your body you feel the stress. Gently bringing awareness to it without judgment can help reduce its intensity.",
+            "Mindfulness and grounding techniques—like feeling your feet on the ground or naming what you see—can help when your mind races.",
+            "Stress can cloud perspective. Talking it through with someone, even briefly, often brings relief and new insight.",
+            "Sleep and proper nutrition impact how we handle stress. Are you getting enough rest and nourishment?",
+            "Chronic stress isn't something you need to carry alone. Reaching out for support is a wise and healthy choice.",
+            "You don't need to do everything perfectly. Progress, not perfection, is what helps lower long-term stress.",
+            "Sometimes stress is our body asking for rest. Listening to that message is a form of wisdom."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I'm stressed" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel overwhelmed" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I can't relax" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "Too much going on in my life" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel under pressure" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "Everything is too much" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I can't handle the stress anymore" } ],
+      "isTemplate": false
+    }
+  ]
+}

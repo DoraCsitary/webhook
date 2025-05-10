@@ -1,0 +1,60 @@
+{
+  "name": "LowSelfEsteemSupport",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "It's okay to feel this way sometimes. You're not alone. Try writing down small wins each day, even if it's just getting out of bed. You matter, and things can get better.",
+            "Self-doubt is tough, but it doesn’t define you. You are more than your current feelings, and your worth is not determined by one moment or thought.",
+            "It's important to be kind to yourself. Sometimes, the most difficult step is just accepting that you're doing the best you can. That’s enough.",
+            "Every person has unique value, and you are no exception. Even when you can't see it, your contributions and your existence are meaningful.",
+            "Take a moment to think of one thing you’re proud of, no matter how small. That’s a sign of your strength, and you deserve to recognize it.",
+            "It's okay not to have everything figured out right now. Healing from low self-esteem takes time, and you are on your own journey at your own pace.",
+            "You are worthy of love and respect, including from yourself. Treat yourself with the same compassion you would offer to a close friend in a similar situation.",
+            "What you're feeling right now is temporary, and things can change. Take it day by day, and remember, seeking support is a sign of strength, not weakness.",
+            "You're not defined by your mistakes or your thoughts in this moment. You are always growing, and every step forward, no matter how small, is progress.",
+            "Sometimes, it’s hard to believe in yourself, but that doesn’t make it any less true. You are deserving of happiness and self-love.",
+            "Please remember that you are allowed to take up space. You are allowed to exist fully, with all your strengths and imperfections. Both are part of you, and both are worthy."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I have no confidence" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel worthless" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I hate myself" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I don't believe in myself" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I don't feel good enough" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel like I'm not capable" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm not worthy of love" } ],
+      "isTemplate": false
+    }
+  ]
+}

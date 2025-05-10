@@ -1,0 +1,71 @@
+{
+  "name": "RelationshipSupport",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Relationships can be challenging, but conflict doesn't mean failure—it can be a sign that growth or change is needed.",
+            "It's important to listen not just to respond, but to understand. Sometimes feeling heard makes all the difference.",
+            "Fights can stem from unmet needs or unspoken emotions. Giving each other space to share feelings without judgment can rebuild connection.",
+            "Every relationship goes through ups and downs. What's important is how you both show up and work through them together.",
+            "You don't have to solve everything at once. Start with small, honest conversations. Healing takes time and patience.",
+            "You're not alone—many people struggle in relationships. What matters is your willingness to reflect and grow.",
+            "If you're growing apart, it's okay to acknowledge it with care. Relationships evolve, and it’s okay to explore what you both need now.",
+            "Trust, kindness, and communication are the heart of healthy connection. They take effort, but they’re worth it.",
+            "Sometimes seeking support from a counselor or therapist can open up space for new understanding and healing.",
+            "If you're feeling stuck, try asking your partner, 'How can I support you better?' Small questions can open big doors."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I'm having relationship problems" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "My partner and I keep fighting" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I have a new partner, but we have problems" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "How do I fix my relationship?" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "We're growing apart" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "We argue all the time" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "Our relationship feels distant" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I don't feel loved in my relationship" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I think we're losing our connection" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm afraid we're drifting apart" } ],
+      "isTemplate": false
+    }
+  ]
+}

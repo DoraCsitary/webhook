@@ -1,0 +1,68 @@
+{
+  "name": "MakingFriendsAdvice",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "It's completely okay to feel unsure about making friends. Social skills are learned over time, and you're not behind—you're just beginning your journey.",
+            "Taking small social risks—like saying hi or making eye contact—can lead to real change.",
+            "Friendship starts with kindness—toward yourself and others. Try to be present and curious when you meet someone new. That genuine interest often opens the door.",
+            "You don’t have to be the most outgoing person in the room to make friends. Being a good listener and showing empathy are powerful social strengths.",
+            "If you feel awkward in conversations, that’s normal! Most people feel the same way. Focus on small steps—asking someone how their day was can be a great place to start.",
+            "You are worth knowing. Even if it feels hard now, with time and practice, socializing can become easier and more fulfilling.",
+            "Not every connection will turn into a deep friendship—and that’s okay. It’s about being open and giving yourself the chance to connect when the opportunity arises.",
+            "Making friends isn’t about impressing others. It’s about finding people who appreciate you as you are. Authenticity is more powerful than perfection.",
+            "Try being involved in spaces that reflect your values and interests—that's where you're more likely to meet like-minded people.",
+            "It's okay if it takes time. Building real friendships is a gradual process. Be patient with yourself—you’re doing better than you think.",
+            "You can try asking what they like or bringing up some different things, like hobbies and stuff."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "How can I make new friends?" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel lonely" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm in a new school and I don't have friends" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I got a new job but I don't know how to make friends" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I don't know how to talk to people" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I have trouble socializing" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm shy around new people" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "No one talks to me" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I want to connect with others" } ],
+      "isTemplate": false
+    }
+  ]
+}

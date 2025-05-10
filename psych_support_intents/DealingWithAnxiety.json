@@ -1,0 +1,49 @@
+{
+  "name": "DealingWithAnxiety",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "It's completely okay to feel anxious sometimes. Try taking a few deep breaths or focusing on your senses like noticing what you see and hear around you.",
+            "I'm sorry you're feeling this way. Something as simple as slow breathing or stepping outside for a moment can help.",
+            "You're not alone in feeling anxious. Focusing on your breath or placing your feet flat on the floor and noticing the contact can bring you back to the present.",
+            "When anxiety takes over, it helps to reconnect with the moment. I can guide you through a quick mindfulness or breathing exercise if you'd like.",
+            "Feeling overwhelmed is nothing to be ashamed of. Even small steps like breathing slowly or clenching and relaxing your fists can make a difference.",
+            "It's normal to want to push anxious feelings away, but allowing them to be there without judgment often reduces their intensity. Just noticing the feeling, naming it, and breathing through it is a powerful start.",
+            "Our minds often overestimate danger and underestimate our ability to cope. It can help to remind yourself: 'This feeling is uncomfortable, but it’s not dangerous. I’ve gotten through this before, and I can again.'",
+            "Anxiety often comes from our thoughts jumping to worst-case scenarios. One helpful technique is to gently challenge those thoughts, ask yourself: is this worry 100% true, or could there be another explanation?"
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I'm anxious" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel anxious" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I feel nervous all the time" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I can't stop worrying" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "What can I do about anxiety?" } ],
+      "isTemplate": false
+    }
+  ]
+}

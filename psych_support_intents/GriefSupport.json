@@ -1,0 +1,62 @@
+{
+  "name": "GriefSupport",
+  "auto": true,
+  "webhookUsed": false,
+  "fallbackIntent": false,
+  "priority": 500000,
+  "responses": [
+    {
+      "resetContexts": false,
+      "messages": [
+        {
+          "type": 0,
+          "speech": [
+            "Grief is deeply personal, and healing takes time. It's okay to cry, to be angry, or to feel numb. You're not alone, and support is available. Would talking more about it help?",
+            "Losing someone you love is one of the hardest experiences we go through. Be gentle with yourself—you’re allowed to feel everything you’re feeling.",
+            "There’s no right way to grieve. Everyone’s journey through loss looks different, and that’s okay.",
+            "It’s okay if you don’t feel okay right now. Grief comes in waves—some days are harder than others. Just take it one moment at a time.",
+            "Your pain is valid, and it's okay to talk about it. Sometimes just naming what you feel can help soften the weight of it.",
+            "The love you shared doesn’t disappear. It lives on in memories, in what they taught you, and in how you carry them forward.",
+            "You might feel like you should 'move on,' but grief doesn’t have a deadline. Healing happens slowly, and that’s completely normal.",
+            "Try not to judge yourself for how you're grieving. There’s no timeline, and whatever you're feeling right now is part of your process.",
+            "Talking to someone about your grief—whether a friend, a support group, or a therapist—can be a powerful step toward healing.",
+            "Some days may feel unbearable, but even those days pass. You are stronger than you feel right now.",
+            "It’s okay to laugh, to smile, or to find moments of peace, even in grief. Joy and sadness can exist side by side.",
+            "Remembering your loved one and creating small rituals in their memory can offer comfort and a sense of connection.",
+            "Grief can be exhausting—emotionally and physically. Rest is healing, too. Listen to your body and your heart."
+          ]
+        }
+      ]
+    }
+  ],
+  "userSays": [
+    {
+      "data": [ { "text": "I'm grieving" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I lost someone I love" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "How do I cope with loss?" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I'm heartbroken" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I miss them so much" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "I don't know how to move on" } ],
+      "isTemplate": false
+    },
+    {
+      "data": [ { "text": "The pain is overwhelming" } ],
+      "isTemplate": false
+    }
+  ]
+}
